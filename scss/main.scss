@@ -1,0 +1,108 @@
+$primary: #5265E1;
+$secondary: #FA5959;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+#menu a {
+    color: black;
+}
+
+#menu a:hover {
+    color: $secondary;
+}
+
+#menu div > button {
+    padding: 0em 1.5em;
+}
+.bg-img-purple {
+    background-color: $primary;
+    height: 250px;
+    width: 35%;
+    position: absolute;
+    top: 25px;
+    z-index: -1;
+    border-radius: 250px 0 0 250px;
+    transform: translateY(100%);
+    right: 0;
+}
+
+.nav-btn {
+    background-color: $secondary;
+    color: white;
+}
+
+.nav-btn:hover{
+    background-color: white;
+    border-color: $secondary;
+    color: $secondary;
+}
+
+.bg-img-purple-2 {
+    background-color: $primary;
+    height: 250px;
+    width: 35%;
+    position: absolute;
+    
+    z-index: -1;
+    border-radius: 0 250px 250px 0;
+    transform: translateY(100%);
+    left: 0;
+}
+
+.btn-primary:hover{
+    background-color: white;
+    color: $primary;
+    border-color: $primary;
+}
+
+.btn-light:hover{
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+
+.img-features {
+    padding: 75px 0;
+}
+
+.nav-link:hover {
+    color: $secondary;
+}
+
+.card {
+    border-radius: 10px;
+    padding: 30px 0;
+    max-width: 280px;
+    margin: 25px auto 0;
+    text-align: center;
+    box-shadow: 10px 10px 10px grey;
+    & img {
+        padding-bottom: 25px;
+        padding-right: 80px;
+        padding-left: 80px;
+    }
+}
+
+.footer {
+    color: white;
+}
+
+.accordion-button:hover {
+    color: $secondary;
+}
+
+#menu2 {
+    background-color: navy;
+}
+
+#menu2 a {
+    color: white;
+}
+
+#menu2 a:hover {
+    color: $secondary;
+}
+
+.smicon:hover {
+    color: $secondary;
+}

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprint 2</title>
+    <link rel="stylesheet" href="scss/main.css">
+</head>
+
+<body>
+  
+    <!--nav-->
+    <div class="navbar navbar-expand-md navbar-light bg-white navbar-fixed-top pt-3 pt-md-5 text-center" id="menu">
+        <a class="navbar-brand active mx-4" href="index.html">
+            <img src="Recursos projecte sprint 2-20220309\Imagenes/logo-bookmark.svg" alt="">
+        </a>
+        <button class="navbar-toggler mx-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="Recursos projecte sprint 2-20220309\Imagenes/icon-hamburger.svg" alt="">
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">        
+            <div class="navbar-nav">
+                <a class="nav-item nav-link mx-4" href="#">FEATURES</a>
+                <a class="nav-item nav-link mx-4" href="#">PRICING</a>
+                <a class="nav-item nav-link mx-4" href="#">CONTACT</a>
+                <button class="btn nav-btn navbar-btn mx-4">LOGIN</button>
+            </div>
+        </div>
+    </div>
+
+    <!--hero-->
+    <main class="container px-4 py-5">
+        <div class="row flex-md-row-reverse align-items-center g-5 py-5">
+            <div class="col-12 col-md-6">
+                <div class="bg-img-purple"></div>
+                <img src="Recursos projecte sprint 2-20220309\Imagenes/illustration-hero.svg" class="d-block mx-md-auto img-fluid" alt="">
+            </div>
+
+            <div class="col-md-6">
+                <div class="lc-block mb-3">
+                    <h1 class="fw-bold display-5">A Simple Bookmark Manager</h1>
+                </div>
+
+                <div class="lc-block mb-3">
+                    <p class="lead">A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
+                </div>
+
+                <div class="lc-block mb-3">
+                    <button class="btn btn-primary">Get it on Chrome</button>
+                    <button class="btn btn-light ml-4">Get it on Firefox</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!--features-->
+    <section>
+        <div class="row justify-content-center">
+            <div class="col-md-6 text-center px-4">
+                <h2 class="fw-bold mb-4">Features</h2>
+                <p>Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
+            </div>
+        </div>
+
+        <div class="col-12 my-5">
+        <ul class="nav nav-pills mx-auto justify-content-center" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active py-3 pb-md-3" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Simple Bookmarking</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link py-3 pb-md-3" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Speedy Searching</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link py-3 pb-md-3" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Easy Sharing</button>
+            </li>
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-6 feature-container justify-content-center">
+                        <div class="bg-img-purple-2"></div>
+                        <img src="Recursos projecte sprint 2-20220309/Imagenes/illustration-features-tab-1.svg" class="d-block mx-md-auto img-fluid img-features">
+                    </div>
+                    <div class="col-12 col-md-6 m-auto px-3">
+                        <h2 class="fw-bold">Bookmark in one click</h2>
+                        <p>Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
+                        <button class="btn btn-primary">More info</button>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <div class="row">
+                    <div class="col-12 col-md-6 feature-container">
+                        <div class="bg-img-purple-2"></div>
+                        <img src="Recursos projecte sprint 2-20220309/Imagenes/illustration-features-tab-2.svg" class="d-block mx-md-auto img-fluid img-features">
+                    </div>
+                    <div class="col-12 col-md-6 m-auto px-3">
+                        <h2 class="fw-bold">Speedy Searching</h2>
+                        <p>Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
+                        <button class="btn btn-primary">More info</button>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                <div class="row">
+                    <div class="col-12 col-md-6 feature-container">
+                        <div class="bg-img-purple-2"></div>
+                        <img src="Recursos projecte sprint 2-20220309/Imagenes/illustration-features-tab-3.svg" class="d-block mx-md-auto img-fluid img-features">
+                    </div>
+                    <div class="col-12 col-md-6 m-auto px-3">
+                        <h2 class="fw-bold">Easy Searching</h2>
+                        <p>Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
+                        <button class="btn btn-primary">More info</button>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>  
+        
+        
+    </section>
+
+    <!--downloads-->
+    <section>
+        <div class="row justify-content-center">
+            <div class="col-md-6 text-center px-4 mt-5">
+                <h2 class="fw-bold mb-4">Download the extension</h2>
+                <p>We've got more browsers in the pipeline. Please do let us know if you've got a favourite you'd like us to prioritize.</p>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
+            <div class="col">
+              <div class="card mt-auto mt-md-1">
+                <img src="Recursos projecte sprint 2-20220309/Imagenes/logo-chrome.svg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Add to Chrome</h5>
+                  <p class="card-text">Minimum version 62</p>
+                  <img src="Recursos projecte sprint 2-20220309/Imagenes/bg-dots.svg" alt="Dots" class="container-fluid">
+                  <button class="btn btn-primary">Add & Install Extension</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card mt-auto mt-md-4">
+                <img src="Recursos projecte sprint 2-20220309/Imagenes/logo-firefox.svg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Add to Firefox</h5>
+                  <p class="card-text">Minimum version 55</p>
+                  <img src="Recursos projecte sprint 2-20220309/Imagenes/bg-dots.svg" alt="Dots" class="container-fluid">
+                  <button class="btn btn-primary">Add & Install Extension</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card mt-auto mt-md-5">
+                <img src="Recursos projecte sprint 2-20220309/Imagenes/logo-opera.svg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Add to Opera</h5>
+                  <p class="card-text">Minimum version 46</p>
+                  <img src="Recursos projecte sprint 2-20220309/Imagenes/bg-dots.svg" alt="Dots" class="container-fluid">
+                  <button class="btn btn-primary">Add & Install Extension</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+    </section>
+
+    <!--faqs-->
+    <section>
+        <div class="row justify-content-center my-5">
+            <div class="col-md-6 text-center px-4 mt-5">
+                <h2 class="fw-bold mb-4">Frequently Asked Questions</h2>
+                <p>Here are some of our FAQs. If you have any other questions you'd like answered please feel free to email us.</p>
+            </div>
+        </div>
+
+        <div class="row justify-content-center text-center">
+        <div class="accordion accordion-flush col-md-6" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  What is Bookmark?
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam cumque porro blanditiis pariatur, officiis maiores aliquam optio accusantium alias, qui maxime perferendis commodi eius earum! Optio asperiores eos excepturi unde.</code> class. This is the first item's accordion body.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  How can I request a new browser?
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi praesentium labore facilis vero quis dolor atque et unde voluptate, similique tempora amet dicta, est expedita quia accusamus at inventore! Adipisci.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Is there a mobile app?
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam assumenda, deserunt, similique earum, tempore vel pariatur quidem commodi id atque ex perspiciatis ad optio saepe illum sit exercitationem quibusdam placeat?</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                    What about other Chromium browsers?
+                  </button>
+                </h2>
+                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam assumenda, deserunt, similique earum, tempore vel pariatur quidem commodi id atque ex perspiciatis ad optio saepe illum sit exercitationem quibusdam placeat?</div>
+                </div>
+              </div>
+            </div>
+            <div class="my-4">
+                <button class="btn btn-primary">More info</button>
+            </div>
+        </div>  
+    </section>
+
+    <!--footer-->
+    <section class="footer">
+      <div class="mt-5 p-5 bg-primary text-center">
+        <p>35,000+ ALREADY JOINED</p>
+        <h2 class="fw-bold">Stay up-to-date with what whe're doing</h2>
+        <form class="row justify-content-center align-items-center needs-validation">
+          <div class="col-auto mb-4">
+            <label for="exampleInputEmail1" class="form-label"></label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter you email address" name="email" required>
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">
+              Please provide a valid email.
+            </div>
+          </div>
+          <div class="col-auto">
+          <button type="submit" class="btn nav-btn">Contact Us</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!--nav footer-->
+    <div class="navbar navbar-expand-md navbar-dark p-3 text-center justify-content-center align-items-center" id="menu2">
+      <a class="navbar-brand active mx-4 col-12 col-md-3 d-flex flex-wrap justify-content-center" href="index.html">
+          <img src="Recursos projecte sprint 2-20220309\Imagenes/logo-bookmark.svg" alt="">
+      </a>
+      <div id="navbarNavAltMarkup mx-md-5 col-12 col-md-3 d-flex flex-wrap">        
+          <div class="navbar-nav">
+              <a class="nav-item nav-link mx-4" href="#">FEATURES</a>
+              <a class="nav-item nav-link mx-4" href="#">PRICING</a>
+              <a class="nav-item nav-link mx-4" href="#">CONTACT</a>
+          </div>
+      </div>
+      <div class="col-12 col-md-3 d-flex justify-content-center justify-content-md-end flex-wrap">
+        <a class="mx-4 smicon" href="#">
+          <img src="Recursos projecte sprint 2-20220309\Imagenes/icon-facebook.svg" alt="" class="mx-2">
+        </a>
+        <a class="mx-4 smicon" href="#">
+          <img src="Recursos projecte sprint 2-20220309\Imagenes/icon-twitter.svg" alt="" class="mx-2">
+        </a>
+      </div>
+  </div>
+
+    <script src="/bootstrap/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
